@@ -1,0 +1,7 @@
+node_modules/
+**/.vs
+**/.vscode
+package-lock.json
+*.js
+*.map
+*.js.map

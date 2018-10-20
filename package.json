@@ -1,0 +1,23 @@
+{
+  "name": "cmd-time-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js --list",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.2.1",
+    "mongoose-auto-increment": "^5.0.1",
+    "optimist": "^0.6.1"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.0.18"
+  },
+  "bin": {
+    "time-tracker": "time-tracker.js"
+  }
+}
